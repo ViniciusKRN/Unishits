@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(200, 238, 225);
+    margin: 20px;
+    font-size: 18px;
+    position: relative;
+}
+  #topo {
+       margin: 20px;
+       padding: 5px;
+  }
+
+  #centro {
+      margin: 20px;
+      padding: ;
+      align-items: center;
+  }
