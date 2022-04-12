@@ -1,16 +1,59 @@
 body {
-    background-color: rgb(200, 238, 225);
-    margin: 20px;
-    font-size: 18px;
-    position: relative;
-}
+   background-color:aliceblue;
+  }
   #topo {
        margin: 20px;
        padding: 5px;
+       font-family: Arial, Helvetica, sans-serif;
+       position:static
   }
 
   #centro {
       margin: 20px;
       padding: ;
       align-items: center;
+  }
+
+   h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+   }
+   #bottom {
+    border: 1px solid #000000;
+    background-color: rgb(227, 198, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+    line-height: 14px;
+}
+ #menu {
+     background-color:cadetblue;
+ }
+ #menu ul li {
+     display: inline;
+ }
+ #menu ul li a{
+     text-decoration: none;
+     display: inline-block;
+     color:#000000;
+     padding: 20px;
+     transition: background .3s;
+ }
+ #menu ul li a:hover {
+       background-color: aquamarine;
+ }
+
+  #menu ul li a:hover{
+      background-color:cornflowerblue;
+  }
+   
+  #menu ul li:last-child a {
+    float: right;
+    background-color:cornflowerblue
+  }
+
+  #menu ul li a:hover{
+      background-color: blue;
   }
