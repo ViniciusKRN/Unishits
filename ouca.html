@@ -5,37 +5,94 @@
      <title>Ouça Agora</title>
      <link rel="stylesheet" href="css/ouca.css">
      <link rel="icon" href="img/logo.png">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      </head>
      <body>
-         <div id="musica1">
-         <audio src="midia/.mp3" controls></audio>
+      <div class="container">
+
+        <div class="top-bar">
+            <i class="material-icons favorite">favorite</i>
+              <span> Ouvindo Agora </span>
+            <i class="material-icons add">add</i>
         </div>
-        <div id="musica2">
-            <audio src="midia/.mp3" controls></audio>
+        <div class="img-area">
+            <img src="img/ID.jpg" alt="ID">
         </div>
-        <div id="musica3">
-            <audio src="midia/.mp3" controls></audio>
+        <div class="song-details">
+            <p class="nome">Bones</p>
+            <p class="artista">Imagine Dragons</p>
         </div>
-        <div id="musica4">
-            <audio src="midia/.mp3" controls></audio>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio id="main-audio" src="midia/Bones-ID.mp3"></audio>
+            </div>
+
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">4:00</span>
+            </div>
+            <audio id="main-audio" src=""></audio>
         </div>
-        <div id="musica5">
-            <audio src="midia/.mp3" controls></audio>
+
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="playlist-looped">repeat</i>
+            <i id="prev" class="material-icons prev">fast_rewind</i>
+
+            <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons next">fast_forward</i>
+            <i id="more-music" class="material-icons next">queue_music</i>
         </div>
-        <div id="musica6">
-            <audio src="midia/.mp3" controls></audio>
+
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="list material-icons">queue_music</i>
+                       <span>music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+                <li>
+                    <div class="row">
+                        <span>Bones</span>
+                        <p>Imagine Dragons</p>
+                    </div>
+                    <span class="audio-duration">1:45</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="row">
+                        <span>As It Was</span>
+                        <p>Harry Styles</p>
+                    </div>
+                    <span class="audio-duration">1:45</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="row">
+                        <span>Do I Wanna Know?</span>
+                        <p>Arctic Monkeys</p>
+                    </div>
+                    <span class="audio-duration">1:45</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="row">
+                        <span>Shut Up And Listen</span>
+                        <p>Nicholas Bonnin</p>
+                    </div>
+                    <span class="audio-duration">1:45</span>
+                </li>
+            </ul>
         </div>
-        <div id="musica7">
-            <audio src="midia/.mp3" controls></audio>
-        </div>
-        <div id="musica8">
-            <audio src="midia/.mp3" controls></audio>
-        </div>
-        <div id="musica9">
-            <audio src="midia/.mp3" controls></audio>
-        </div>
-        <div id="musica10">
-            <audio src="midia/.mp3" controls></audio>
-        </div>
-        </body>
+      </div>
+
+      <script src="js/music-list.js"></script>
+      <script src="js/script.js"></script>
+     </body>
  </html>
