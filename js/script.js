@@ -12,7 +12,7 @@ window.addEventListener("load", ()=>{
 })
 
 function loadMusic(indexNumb){
-    musicNome.innerText = allMusic[indexNumb -1 ].nome;
+    musicNome.innerText = allMusic[indexNumb - 1 ].nome;
     musicArtista.innerText = allMusic[indexNumb - 1].artista;
 }
 
