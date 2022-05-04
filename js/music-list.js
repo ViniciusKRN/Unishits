@@ -2,25 +2,25 @@ let allMusic = [
      {
          nome: "Bones",
          artista: "Imagine Dragons",
-         img: "ID",
-         src:"img/ID"
+         img: "music-1",
+         src:"music-1"
      },
      {
         nome: "As It Was",
         artista: "Harry Styles",
         img: "asitwas",
-        src:"asitwas"
+        src:"img/asitwas"
     },
     {
         nome: "Do I Wanna Know",
         artista: "Artctic Monkeys",
         img: "diwk",
-        src:"diwk"
+        src:"img/diwk"
     },
     {
         nome: "Shut Up And Listen",
         artista: "Nicholas Bonnin",
         img: "sual",
-        src:"sual"
+        src:"img/sual"
     },
 ]
