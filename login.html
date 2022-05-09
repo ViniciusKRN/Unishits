@@ -1,48 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+  <title>Login</title>
 </head>
 <body>
-  <div class="container">
-    <div class="buttonsForm">
-      <div class="btnColor"></div>
-      <button id="btnSignin">Sign in</button>
-      <button id="btnSignup">Sign up</button>
+  <div class="main-login">
+    <div class="left-login">
+      <h1>Faça o login <br> e aproveite varias oportunidades.</h1>
+      <img class="left-login-img" src="images/fone.svg">
     </div>
-
-    <form id="signin">
-      <input type="text" placeholder="Email" required />
-      <i class="fas fa-envelope iEmail"></i>
-      <input type="password" placeholder="Password" required />
-      <i class="fas fa-lock iPassword"></i>
-      <div class="divCheck">
-        <input type="checkbox" />
-        <span>Remember Password</span>
+    <div class="right-login">
+      <div class="card-login">
+        <h1>LOGIN</h1>
+        <div class="textfield">
+          <label for="usuario">Usuário</label>
+          <input type="text" name="usuario" placeholder="Usuário">
+        </div>
+        <div class="textfield">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" placeholder="Senha">
+        </div>
+        <button class="btn-login">login</button>
       </div>
-      <button type="submit">Sign in</button>
-    </form>
-
-    <form id="signup">
-      <input type="text" placeholder="Email" required />
-      <i class="fas fa-envelope iEmail"></i>
-      <input type="password" placeholder="Password" required />
-      <i class="fas fa-lock iPassword"></i>
-      <input type="password" placeholder="Password" required />
-      <i class="fas fa-lock iPassword2"></i>
-      <div class="divCheck">
-        <input type="checkbox" required />
-        <span>Terms</span>
-      </div>
-      <button type="submit">Sign up</button>
-    </form>
+    </div>
   </div>
-
-  <script src="js/index.js"></script>
+  
 </body>
 </html>
