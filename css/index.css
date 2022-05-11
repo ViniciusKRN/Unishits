@@ -33,11 +33,6 @@
      background: black;
      height: 11vh;
  }
-  main {
-    background-image : url('../images/background.png');
-      background-size: cover;
-      height: 92vh;
-  }
   .nav-list {
       list-style: none;
       display: flex;
@@ -72,7 +67,7 @@
       padding-left: 5%;
   }
   button {
-      background-image: linear-gradient(45deg, #000000, #363636);
+      background-color:#363691;
       padding: 20px 40px;
       font-size: 20px;
       color: #fff;
@@ -138,11 +133,6 @@
        margin: 5px;
        background-color: black;
    }
-  /* #rodape  ul li{
-       float: right;
-       color: #fff; 
-   } */
-
    body {
        height: 100vh;
        background-image : url('../images/6.png');
