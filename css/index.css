@@ -67,15 +67,18 @@
       padding-left: 5%;
   }
   button {
-      background-color:#363691;
+      background-color:#ffffff;
       padding: 20px 40px;
       font-size: 20px;
-      color: #fff;
       border: none;
       border-radius: 10px;
       cursor: pointer;
-      box-shadow: 0 0 7px 0 rgb(39, 148, 202);
+      box-shadow: 0 0 10px 0 rgb(45, 45, 46);
       align-items: center;
+  }
+
+  .fonte-botao {
+    color: #000000;
   }
   @keyframes anima{
       0%{
@@ -92,6 +95,9 @@
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
       animation-direction: alternate;
+      background-color: #351474;
+      color: #ffffff;
+      transition: 00.3s;
   }
    h2{
        text-align: center;
